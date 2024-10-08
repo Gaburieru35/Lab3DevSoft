@@ -1,0 +1,40 @@
+@startuml
+actor "Aluno" as Aluno
+actor "Professor" as Professor
+actor "Empresa Parceira" as Empresa
+actor "Admin" as Admin
+actor "Sistema de Autenticação" as Auth
+
+usecase "Cadastrar-se" as UC_Cadastro_Aluno
+usecase "Consultar Extrato" as UC_Consultar_Extrato_Aluno
+usecase "Trocar Moedas" as UC_Trocar_Moedas
+usecase "Notificar Aluno" as UC_Notificar_Aluno
+usecase "Cadastrar-se no Sistema" as UC_Cadastro_Empresa
+usecase "Cadastrar Vantagens" as UC_Cadastrar_Vantagens
+usecase "Receber Notificação de Resgate" as UC_Notificar_Empresa
+usecase "Enviar Moedas" as UC_Enviar_Moedas
+usecase "Consultar Extrato" as UC_Consultar_Extrato_Professor
+usecase "Autenticar Login" as UC_Login
+usecase "Cadastrar Instituições e Professores" as UC_Cadastro_Instituicoes_Professores
+
+Aluno --> UC_Cadastro_Aluno
+Aluno --> UC_Consultar_Extrato_Aluno
+Aluno --> UC_Trocar_Moedas
+UC_Trocar_Moedas --> UC_Notificar_Empresa : <<include>>
+UC_Trocar_Moedas --> UC_Notificar_Aluno : <<include>>
+Aluno --> UC_Login
+
+Professor --> UC_Enviar_Moedas
+Professor --> UC_Consultar_Extrato_Professor
+Professor --> UC_Login
+
+Empresa --> UC_Cadastrar_Vantagens
+Empresa --> UC_Cadastro_Empresa
+Empresa --> UC_Login
+
+Admin --> UC_Cadastro_Instituicoes_Professores
+Admin --> UC_Login
+
+Auth --> UC_Login
+
+@enduml
