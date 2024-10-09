@@ -3,6 +3,7 @@ actor "Aluno" as Aluno
 actor "Professor" as Professor
 actor "Empresa Parceira" as Empresa
 actor "Admin" as Admin
+actor "Relogio" as Clock
 actor "Sistema de Autenticação" as Auth
 
 usecase "Cadastrar-se" as UC_Cadastro_Aluno
@@ -16,13 +17,17 @@ usecase "Enviar Moedas" as UC_Enviar_Moedas
 usecase "Consultar Extrato" as UC_Consultar_Extrato_Professor
 usecase "Autenticar Login" as UC_Login
 usecase "Cadastrar Instituições e Professores" as UC_Cadastro_Instituicoes_Professores
+usecase "Distribuir Moedas Semestral" as UC_Distribuir_Semestral
 
 Aluno --> UC_Cadastro_Aluno
 Aluno --> UC_Consultar_Extrato_Aluno
 Aluno --> UC_Trocar_Moedas
 UC_Trocar_Moedas --> UC_Notificar_Empresa : <<include>>
 UC_Trocar_Moedas --> UC_Notificar_Aluno : <<include>>
+UC_Enviar_Moedas --> UC_Notificar_Aluno : <<include>>
 Aluno --> UC_Login
+
+Clock --> UC_Distribuir_Semestral
 
 Professor --> UC_Enviar_Moedas
 Professor --> UC_Consultar_Extrato_Professor
