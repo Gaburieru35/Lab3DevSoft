@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD de Aluno e Empresa Parceira</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Gerenciamento de Alunos e Empresas Parceiras</h1>
+    <section id="aluno-section">
+      <h2>Alunos</h2>
+      <form id="aluno-form">
+        <input type="text" id="aluno-nome" placeholder="Nome" required />
+        <input type="email" id="aluno-email" placeholder="Email" required />
+        <input type="text" id="aluno-cpf" placeholder="CPF" required />
+        <button type="submit">Adicionar Aluno</button>
+      </form>
+      <ul id="aluno-list"></ul>
+    </section>
+    <section id="empresa-section">
+      <h2>Empresas Parceiras</h2>
+      <form id="empresa-form">
+        <input type="text" id="empresa-nome" placeholder="Nome" required />
+        <input
+          type="text"
+          id="empresa-endereco"
+          placeholder="Endereço"
+          required
+        />
+        <button type="submit">Adicionar Empresa</button>
+      </form>
+      <ul id="empresa-list"></ul>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
