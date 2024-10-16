@@ -1,3 +1,4 @@
+### Este critério está vinculado ao objetivo de aprendizagemDefinição e implementação da estratégia de acesso ao banco de dados
 Neste projeto, estamos usando ORM (Object-Relational Mapping), especificamente com Spring Data JPA.
 
 Definição de ORM:
