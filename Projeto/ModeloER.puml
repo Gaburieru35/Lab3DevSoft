@@ -1,0 +1,79 @@
+@startuml
+entity "Aluno" {
+    id
+    nome
+    email
+    CPF
+    RG
+    endereco
+    saldo_moedas
+    instituicao_id
+    curso_id
+}
+
+entity "Professor" {
+    id
+    nome
+    CPF
+    departamento
+    saldo_moedas
+    instituicao_id
+}
+
+entity "Instituicao" {
+    id
+    nome
+    endereco
+}
+
+entity "Curso" {
+    id
+    nome
+    instituicao_id
+}
+
+entity "Vantagem" {
+    id
+    nome
+    descricao
+    foto
+    custo_moedas
+    empresa_id
+}
+
+entity "Empresa" {
+    id
+    nome
+    endereco
+    login
+    senha
+}
+
+entity "Transacao" {
+    id
+    data
+    quantidade_moedas
+    mensagem
+    aluno_id
+    professor_id
+}
+
+entity "Usuario" {
+    id
+    login
+    senha
+}
+
+Aluno --|> Usuario : "herda"
+Professor --|> Usuario : "herda"
+Empresa --|> Usuario : "herda"
+
+Aluno "N" -- "1" Curso : "realiza"
+Aluno "N" -- "1" Instituicao : "pertence a"
+Professor "N" -- "1" Instituicao : "é parte de"
+Professor "1" -- "N" Transacao : "envia"
+Aluno "1" -- "N" Transacao : "recebe"
+Aluno "N" -- "N" Vantagem : "resgata"
+Empresa "1" -- "N" Vantagem : "oferece"
+Instituicao "1" -- "N" Curso : "oferece"
+@enduml
