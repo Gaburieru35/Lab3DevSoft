@@ -26,6 +26,12 @@ public class EmpresaParceira implements Serializable {
 	
     @OneToMany(mappedBy = "empresaParceira", cascade = CascadeType.ALL)
 	private List<Vantagem> vantagens = new ArrayList<>(); // Composição
+    
+    
+
+	public EmpresaParceira() {
+		
+	}
 
 	public EmpresaParceira(String nome, String endereco) {
 		this.nome = nome;
