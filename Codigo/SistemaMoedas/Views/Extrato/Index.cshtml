@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Cadastro";
+    Layout = "_Layout";
+}
+
+@model SistemaMoedas.Model.ListagemExtratoModel;
+
+<table class="table table-bordered border-primary" style="margin-top: 20px;">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Origem</th>
+            <th scope="col">Destino</th>
+            <th scope="col">Data</th>
+            <th scope="col">Valor</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var transf in Model.Transferencias)
+        {
+            <tr>
+                <th scope="row">@transf.CodigoTransferencia</th>
+                <td>@transf.OrigemTransferencia</td>
+                <td>@transf.DestinoTransferencia</td>
+                <td>@transf.DataHoraTransferencia</td>
+                <td>@transf.ValorTransferencia</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="modalTransferir" tabindex="-1" aria-labelledby="modalTransferir" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="">Transferir Moedas</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h5 class="">Digite a quantidade para transferir</h5>
+                <input id="quantidadeTransferir" type="number" class="form-control"></input>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="transferirMoedas">Transferir</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/js/aluno.js"></script>
+    }

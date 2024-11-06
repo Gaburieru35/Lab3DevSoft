@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Cadastro";
+    Layout = "_Layout";
+}
+
+@model SistemaMoedas.Model.ListaAlunoModel;
+
+<table class="table table-bordered border-primary" style="margin-top: 20px;">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Aluno</th>
+            <th scope="col">Moedas</th>
+            <th scope="col">Curso</th>
+            <th scope="col">Instituição</th>
+            <th scope="col">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var alunos in Model.ListaAlunos)
+        {
+            <tr>
+                <th scope="row">@alunos.CodigoAluno</th>
+                <td>@alunos.NomeAluno</td>
+                <td>@alunos.QuantidadeMoedasAluno</td>
+                <td>@alunos.CursoAluno</td>
+                <td>@alunos.InstituicaoAluno</td>
+                <td>
+                    <button id="transferirMoedas_@alunos.CodigoAluno" data-codigo="@alunos.CodigoAluno" class="transferirMoedas" data-bs-toggle="modal" data-bs-target="#modalTransferir">Transferir Moedas</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="modalTransferir" tabindex="-1" aria-labelledby="modalTransferir" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="">Transferir Moedas</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h5 class="">Digite a quantidade para transferir</h5>
+                <input id="quantidadeTransferir" type="number" class="form-control"></input>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="transferirMoedas">Transferir</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    @section scripts{
+        <script src="~/js/aluno.js"></script>
+    }

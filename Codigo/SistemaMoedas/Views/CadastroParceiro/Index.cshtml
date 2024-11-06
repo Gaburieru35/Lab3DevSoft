@@ -1,0 +1,165 @@
+﻿@{
+    ViewData["Title"] = "Cadastro";
+    Layout = "_Layout";
+}
+
+@model SistemaMoedas.Model.ListasLoginModel;
+
+<h1 style="text-align: center;">Cadastro Parceiros</h1>
+<div class="form-group">
+    <form class="form-cadastro">
+
+        <div class="row">
+            <div class="col-md-9 custom-input">
+                <label for="nome" class="form-label">Nome</label><br>
+                <input type="text" name="nome" class="form-input" id="nome" required placeholder="Nome">
+            </div>
+
+            <div class="col-md-3 custom-input">
+                <label for="cpf" class="form-label">CNPJ</label><br>
+                <input type="text" name="cpf" class="form-input" id="cnpj" required placeholder="CNPJ">
+            </div>
+
+            <div class="col-md-4 custom-input">
+                <label for="cpf" class="form-label">Email</label><br>
+                <input type="text" name="number" class="form-input" id="email" required placeholder="Email">
+            </div>
+
+            <div class="col-md-4 form-group-password">
+                <Label for="senha" class="form-label">Senha</Label>
+                <input type="password" class="form-input" name="senha" id="senha" required placeholder="Senha">
+            </div>
+
+            <div class="col-md-4 form-group-password">
+                <label for="senhaConfirm" class="form-label">Confirmar Senha</label>
+                <input type="password" class="form-input" name="senhaConfirm" id="senhaConfirm" required placeholder="Confirmar senha">
+            </div>
+
+            <div class="col-md-12 custom-input" style="margin-top: 10px; text-align: center;">
+                <button type="button" class="btn btn-success submit_btn_parceiro" style="margin-bottom: 10px; width: 30%; background-color: #6f42c1 !important">Cadastrar</button>
+            </div>
+
+        </div>
+
+
+    </form>
+</div>
+
+@section css {
+    <style>
+        * {
+            font-family: 'Hallway', sans-serif;
+        }
+
+        p {
+            justify-content: center;
+            text-align: center;
+            display: block;
+            color: #6f42c1;
+            font-size: 20px;
+        }
+
+        input {
+            justify-content: left;
+            align-items: left;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid;
+            height: 40px;
+            border-color: #6f42c1;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-inline-start: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+            input[type="email"],
+            input[type="text"],
+            input[type="password"],
+            select {
+                background-color: #ffffff;
+                border: 1px solid #6f42c1;
+                border-radius: 5px;
+                height: 40px;
+                margin-top: 10px;
+                margin-inline-start: 10px;
+                margin-bottom: 10px;
+                width: 100%;
+                padding-left: 10px;
+            }
+
+        #btn_login {
+            justify-content: center;
+            align-items: center;
+            line-height: 10px;
+            background-color: white;
+            border: 1px solid;
+            border-radius: 5px;
+            height: 40px;
+            border-color: #6f42c1;
+            margin-top: 10px;
+            margin-inline-start: 10px;
+            margin-bottom: 10px;
+            width: 350px;
+            color: #6f42c1;
+            transition: background-color 0.5s ease, color 0.5s ease;
+        }
+
+            #btn_login:hover {
+                background-color: #6f42c1;
+                color: white;
+            }
+
+        .input-container {
+            position: relative;
+            color: #6f42c1;
+        }
+
+        .icon {
+            position: absolute;
+            right: 0.5em;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.5em;
+            max-width: 24px;
+            max-height: 24px;
+            color: #6f42c1;
+            ;
+        }
+
+        .eye-open {
+            content: url('/imgs/eye-open.svg');
+        }
+
+        .eye-closed {
+            content: url('/imgs/eye-closed.svg');
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        input::placeholder {
+            text-align: left;
+            padding-left: 4px;
+            font-size: 15px;
+            color: #6f42c1;
+        }
+
+        .ss {
+            text-align: right;
+            font-size: small;
+        }
+
+        .form_goup_login {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+}
+@section scripts {
+    <script src="~/js/cadastro.js"></script>
+}

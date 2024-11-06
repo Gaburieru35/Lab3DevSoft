@@ -1,0 +1,811 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Moedas\\SistemaMoedas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\wwwroot\\js\\sidebar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\wwwroot\\js\\sidebar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\wwwroot\\js\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\wwwroot\\js\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\services\\alunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\alunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\model\\listaalunomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\model\\listaalunomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\views\\aluno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\aluno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\model\\usuariologadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\model\\usuariologadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Migrations\\20241105195014_professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaMoedas\\Migrations\\20241105195014_professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\services\\professorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\professorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\classes\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\classes\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\services\\interfaces\\ialunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\interfaces\\ialunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\services\\interfaces\\iprofessorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\interfaces\\iprofessorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\repository\\repositorywork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\repository\\repositorywork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\irepository\\irepositorywork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\irepository\\irepositorywork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\controllers\\cadastroparceirocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\controllers\\cadastroparceirocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\wwwroot\\js\\cadastro.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\wwwroot\\js\\cadastro.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\classes\\parceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\classes\\parceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\services\\parceiroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\parceiroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\classes\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\classes\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\constantes\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\constantes\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\model\\modelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\model\\modelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\controllers\\cadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\controllers\\cadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\views\\cadastro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\cadastro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Migrations\\20241105185140_novosCamposParceiros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaMoedas\\Migrations\\20241105185140_novosCamposParceiros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\classes\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\classes\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\views\\cadastroparceiro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\cadastroparceiro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\services\\instituicaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\instituicaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\services\\interfaces\\iparceiroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\interfaces\\iparceiroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\services\\interfaces\\icursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\interfaces\\icursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\model\\listasloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\model\\listasloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\services\\interfaces\\iinstituicaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\interfaces\\iinstituicaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\classes\\instituicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\classes\\instituicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\classes\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\classes\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|e:\\moedas\\sistemamoedas\\sistemamoedas\\wwwroot\\css\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\wwwroot\\css\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 277,
+          "SelectedChildIndex": 43,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListaAlunoModel.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Model\\ListaAlunoModel.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Model\\ListaAlunoModel.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Model\\ListaAlunoModel.cs",
+              "RelativeToolTip": "SistemaMoedas\\Model\\ListaAlunoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T20:06:19.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Views\\Aluno\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Views\\Aluno\\Index.cshtml",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Views\\Aluno\\Index.cshtml",
+              "RelativeToolTip": "SistemaMoedas\\Views\\Aluno\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T20:05:11.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlunoController.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Controllers\\AlunoController.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Controllers\\AlunoController.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Controllers\\AlunoController.cs",
+              "RelativeToolTip": "SistemaMoedas\\Controllers\\AlunoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T20:04:59.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20241105195014_professor.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Migrations\\20241105195014_professor.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Migrations\\20241105195014_professor.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Migrations\\20241105195014_professor.cs",
+              "RelativeToolTip": "SistemaMoedas\\Migrations\\20241105195014_professor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T19:50:14.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProfessorService.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\ProfessorService.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\ProfessorService.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\ProfessorService.cs",
+              "RelativeToolTip": "SistemaMoedas\\Services\\ProfessorService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T19:45:22.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProfessorService.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\Interfaces\\IProfessorService.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\Interfaces\\IProfessorService.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\Interfaces\\IProfessorService.cs",
+              "RelativeToolTip": "SistemaMoedas\\Services\\Interfaces\\IProfessorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T19:44:55.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Constantes.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Constantes\\Constantes.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Constantes\\Constantes.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Constantes\\Constantes.cs",
+              "RelativeToolTip": "SistemaMoedas\\Constantes\\Constantes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T19:03:08.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Classes\\Usuario.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Classes\\Usuario.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Classes\\Usuario.cs",
+              "RelativeToolTip": "SistemaMoedas\\Classes\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T19:00:54.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Views\\Cadastro\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Views\\Cadastro\\Index.cshtml",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Views\\Cadastro\\Index.cshtml",
+              "RelativeToolTip": "SistemaMoedas\\Views\\Cadastro\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T18:52:08.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20241105185140_novosCamposParceiros.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Migrations\\20241105185140_novosCamposParceiros.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Migrations\\20241105185140_novosCamposParceiros.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Migrations\\20241105185140_novosCamposParceiros.cs",
+              "RelativeToolTip": "SistemaMoedas\\Migrations\\20241105185140_novosCamposParceiros.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:51:40.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Views\\CadastroParceiro\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Views\\CadastroParceiro\\Index.cshtml",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Views\\CadastroParceiro\\Index.cshtml",
+              "RelativeToolTip": "SistemaMoedas\\Views\\CadastroParceiro\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T18:46:27.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "SistemaMoedas\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:41:57.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ParceiroService.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\ParceiroService.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\ParceiroService.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\ParceiroService.cs",
+              "RelativeToolTip": "SistemaMoedas\\Services\\ParceiroService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:39:33.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IParceiroService.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\Interfaces\\IParceiroService.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\Interfaces\\IParceiroService.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\Interfaces\\IParceiroService.cs",
+              "RelativeToolTip": "SistemaMoedas\\Services\\Interfaces\\IParceiroService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:38:24.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CadastroParceiroController.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Controllers\\CadastroParceiroController.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Controllers\\CadastroParceiroController.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Controllers\\CadastroParceiroController.cs",
+              "RelativeToolTip": "SistemaMoedas\\Controllers\\CadastroParceiroController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:37:13.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.js",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\wwwroot\\js\\login.js",
+              "RelativeDocumentMoniker": "SistemaMoedas\\wwwroot\\js\\login.js",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\wwwroot\\js\\login.js",
+              "RelativeToolTip": "SistemaMoedas\\wwwroot\\js\\login.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-05T18:28:37.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "cadastro.js",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\wwwroot\\js\\cadastro.js",
+              "RelativeDocumentMoniker": "SistemaMoedas\\wwwroot\\js\\cadastro.js",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\wwwroot\\js\\cadastro.js",
+              "RelativeToolTip": "SistemaMoedas\\wwwroot\\js\\cadastro.js",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-05T18:19:07.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CursoService.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\CursoService.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\CursoService.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\CursoService.cs",
+              "RelativeToolTip": "SistemaMoedas\\Services\\CursoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:12:20.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ICursoService.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\Interfaces\\ICursoService.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\Interfaces\\ICursoService.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\Interfaces\\ICursoService.cs",
+              "RelativeToolTip": "SistemaMoedas\\Services\\Interfaces\\ICursoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:11:54.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InstituicaoService.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\InstituicaoService.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\InstituicaoService.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\InstituicaoService.cs",
+              "RelativeToolTip": "SistemaMoedas\\Services\\InstituicaoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:56:21.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlunoService.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\AlunoService.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\AlunoService.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\AlunoService.cs",
+              "RelativeToolTip": "SistemaMoedas\\Services\\AlunoService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:55:04.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IInstituicaoService.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\Interfaces\\IInstituicaoService.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\Interfaces\\IInstituicaoService.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\Interfaces\\IInstituicaoService.cs",
+              "RelativeToolTip": "SistemaMoedas\\Services\\Interfaces\\IInstituicaoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:54:27.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAlunoService.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\Interfaces\\IAlunoService.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\Interfaces\\IAlunoService.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Services\\Interfaces\\IAlunoService.cs",
+              "RelativeToolTip": "SistemaMoedas\\Services\\Interfaces\\IAlunoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:54:09.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RepositoryWork.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Repository\\RepositoryWork.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Repository\\RepositoryWork.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Repository\\RepositoryWork.cs",
+              "RelativeToolTip": "SistemaMoedas\\Repository\\RepositoryWork.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwDAAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:52:37.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Repository\\Repository.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Repository\\Repository.cs",
+              "RelativeToolTip": "SistemaMoedas\\Repository\\Repository.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAswGYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:52:32.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IRepositoryWork.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\IRepository\\IRepositoryWork.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\IRepository\\IRepositoryWork.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\IRepository\\IRepositoryWork.cs",
+              "RelativeToolTip": "SistemaMoedas\\IRepository\\IRepositoryWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:52:05.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\IRepository\\IRepository.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\IRepository\\IRepository.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\IRepository\\IRepository.cs",
+              "RelativeToolTip": "SistemaMoedas\\IRepository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:52:03.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CadastroController.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Controllers\\CadastroController.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Controllers\\CadastroController.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Controllers\\CadastroController.cs",
+              "RelativeToolTip": "SistemaMoedas\\Controllers\\CadastroController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:51:40.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Instituicao.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Classes\\Instituicao.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Classes\\Instituicao.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Classes\\Instituicao.cs",
+              "RelativeToolTip": "SistemaMoedas\\Classes\\Instituicao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:49:34.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ModelBase.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Model\\ModelBase.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Model\\ModelBase.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Model\\ModelBase.cs",
+              "RelativeToolTip": "SistemaMoedas\\Model\\ModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:48:24.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ListasLoginModel.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Model\\ListasLoginModel.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Model\\ListasLoginModel.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Model\\ListasLoginModel.cs",
+              "RelativeToolTip": "SistemaMoedas\\Model\\ListasLoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:47:30.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Professor.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Classes\\Professor.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Classes\\Professor.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Classes\\Professor.cs",
+              "RelativeToolTip": "SistemaMoedas\\Classes\\Professor.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAiwC8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:36:46.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Classes\\Curso.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Classes\\Curso.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Classes\\Curso.cs",
+              "RelativeToolTip": "SistemaMoedas\\Classes\\Curso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:35:45.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Classes\\Aluno.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Classes\\Aluno.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Classes\\Aluno.cs",
+              "RelativeToolTip": "SistemaMoedas\\Classes\\Aluno.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAmwEYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:50:38.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Views\\Login\\Index.cshtml",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "SistemaMoedas\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T17:29:30.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "SistemaMoedas\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAACNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T16:09:04.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuarioLogadoModel.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Model\\UsuarioLogadoModel.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Model\\UsuarioLogadoModel.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Model\\UsuarioLogadoModel.cs",
+              "RelativeToolTip": "SistemaMoedas\\Model\\UsuarioLogadoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T16:05:41.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dashboard.js",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\wwwroot\\js\\dashboard.js",
+              "RelativeDocumentMoniker": "SistemaMoedas\\wwwroot\\js\\dashboard.js",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\wwwroot\\js\\dashboard.js",
+              "RelativeToolTip": "SistemaMoedas\\wwwroot\\js\\dashboard.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-05T16:04:35.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Controllers\\DashboardController.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "SistemaMoedas\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T16:03:26.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Controllers\\LoginController.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "SistemaMoedas\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAwFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T16:03:00.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sidebar.js",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\wwwroot\\js\\sidebar.js",
+              "RelativeDocumentMoniker": "SistemaMoedas\\wwwroot\\js\\sidebar.js",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\wwwroot\\js\\sidebar.js",
+              "RelativeToolTip": "SistemaMoedas\\wwwroot\\js\\sidebar.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-05T15:51:31.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaMoedas\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T15:50:19.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "sidebar.css",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\wwwroot\\css\\sidebar.css",
+              "RelativeDocumentMoniker": "SistemaMoedas\\wwwroot\\css\\sidebar.css",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\wwwroot\\css\\sidebar.css",
+              "RelativeToolTip": "SistemaMoedas\\wwwroot\\css\\sidebar.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-05T15:49:58.461Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 123,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "92428e5b-825d-4a95-bc8d-6fd1d6c290fe",
+        "Display": 1,
+        "X": 774,
+        "Y": 260,
+        "Width": 2179,
+        "Height": 692,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Parceiro.cs",
+              "DocumentMoniker": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Classes\\Parceiro.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Classes\\Parceiro.cs",
+              "ToolTip": "E:\\Moedas\\SistemaMoedas\\SistemaMoedas\\Classes\\Parceiro.cs",
+              "RelativeToolTip": "SistemaMoedas\\Classes\\Parceiro.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:38:53.118Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Cadastro";
+    Layout = "_Layout";
+}
+
+@model SistemaMoedas.Model.UsuarioLogadoModel;
+
+<div class="row">
+
+    <div class="col-md-3">
+        <div class="card" style="width: 15rem; border-radius: 5px !important; min-height: 200px; text-align:center; border: 1px solid #6f42c1">
+            <div class="card-body">
+                <h5 class="card-title" style="font-size: 32px !important;">Saldo</h5>
+                <p class="card-text" style="font-size: 24px !important; margin-top: 20px;">
+                    @switch (Model.TiposUsuario)
+                    {
+                        case SistemaMoedas.Constantes.Constantes.TiposUsuarios.Aluno:
+                            @Model.Aluno.QuantidadeMoedasAluno;
+                            break;
+
+                        case SistemaMoedas.Constantes.Constantes.TiposUsuarios.Professor:
+                            @Model.Professor.MoedasProfessor
+                            ;
+                            break;
+
+                        default:
+                               @Html.Raw("0");
+                            break;
+                    }
+
+                </p>
+                <p class="card-text" style="font-size: 24px !important; margin-top: 20px;">Moedas</>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section scripts {
+
+    <script src="~/js/dashboard.js"></script>
+    <script>
+
+        $("#usuarioLogado").text("@(Model.Usuario.NomeUsuario)");
+    </script>
+}
