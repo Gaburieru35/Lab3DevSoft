@@ -1,4 +1,10 @@
-﻿
+﻿@using SistemaMoedas.Classes;
+@using SistemaMoedas.Controllers;
+@inject SistemaMoedas.Controllers.UsuarioSessionController usuarioSessionController
+@{
+    var usuarioLogado = usuarioSessionController.RetornarUsuarioSessao();
+    string nome = usuarioLogado?.NomeUsuario ?? "User";
+}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -54,12 +60,18 @@
                             Extrato
                         </a>
                     </li>
-                    <li>
-                        <a id="menuVerAluno" href="/Aluno" class="nav-link link-dark">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href=""></use></svg>
-                            Alunos
-                        </a>
-                    </li>
+                    @{
+                        if(usuarioLogado?.TipoUsuario == SistemaMoedas.Constantes.Constantes.TiposUsuarios.Professor)
+                        {
+                            <li>
+                                <a href="/Aluno" class="nav-link link-dark">
+                                    <svg class="bi me-2" width="16" height="16"><use xlink:href=""></use></svg>
+                                    Alunos
+                                </a>
+                            </li>
+                        }
+                    }
+                    
                     <li>
                         <a href="#" class="nav-link link-dark">
                             <svg class="bi me-2" width="16" height="16"><use xlink:href=""></use></svg>
@@ -77,7 +89,7 @@
                 <div class="dropdown">
                     <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-                        <strong id="usuarioLogado">mdo</strong>
+                        <strong id="usuarioLogado">@(nome)</strong>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser2">
                         <li><a class="dropdown-item" href="Login/Logout" id="logout">Sign out</a></li>

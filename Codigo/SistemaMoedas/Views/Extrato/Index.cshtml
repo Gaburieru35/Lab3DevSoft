@@ -20,10 +20,10 @@
         {
             <tr>
                 <th scope="row">@transf.CodigoTransferencia</th>
-                <td>@transf.OrigemTransferencia</td>
-                <td>@transf.DestinoTransferencia</td>
+                <td>@transf.OrigemTransferencia.NomeProfessor</td>
+                <td>@transf.DestinoTransferencia.NomeAluno</td>
                 <td>@transf.DataHoraTransferencia</td>
-                <td>@transf.ValorTransferencia</td>
+                <td style="color: @(Model.IdUsuario == transf.OrigemTransferenciaCodigoProfessor ? "red" : "green")">@transf.ValorTransferencia</td>
             </tr>
         }
     </tbody>

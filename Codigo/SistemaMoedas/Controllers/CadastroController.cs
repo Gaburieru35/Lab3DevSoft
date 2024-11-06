@@ -32,7 +32,7 @@ namespace SistemaMoedas.Controllers
             return View(objModel);
         }
 
-        public JsonResult Cadastrar(Aluno aluno)
+        public IActionResult Cadastrar(Aluno aluno)
         {
             AlunoService alunoServico = new AlunoService(Contexto);
             aluno.DataCadastroAluno = DateTime.Now;
@@ -50,7 +50,7 @@ namespace SistemaMoedas.Controllers
                 throw;
             }
 
-            return Json(new { aluno });
+            return RedirectToAction("Index", "/Login");
         }
     }
 }

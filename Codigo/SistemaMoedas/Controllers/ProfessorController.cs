@@ -27,8 +27,8 @@ namespace SistemaMoedas.Controllers
 
             Professor professor = professorService.listarPorEmail(HttpContext.Session.GetString("_email"));
             Transferencia transferencia = new Transferencia();
-            transferencia.OrigemTransferencia = professor.CodigoProfessor;
-            transferencia.DestinoTransferencia = aluno.CodigoAluno;
+            transferencia.OrigemTransferencia = professor;
+            transferencia.DestinoTransferencia = aluno;
             transferencia.DataHoraTransferencia = DateTime.Now;
             transferencia.ValorTransferencia = quantidade;
             transferencia.TipoTransferencia = 0;

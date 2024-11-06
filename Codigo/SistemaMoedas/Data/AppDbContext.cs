@@ -10,6 +10,19 @@ namespace SistemaMoedas.Data
 
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Transferencia>()
+                .HasOne(t => t.OrigemTransferencia)
+                .WithMany()
+                .HasForeignKey(t => t.OrigemTransferenciaCodigoProfessor);
+
+            modelBuilder.Entity<Transferencia>()
+                .HasOne(t => t.DestinoTransferencia)
+                .WithMany()
+                .HasForeignKey(t => t.DestinoTransferenciaCodigoAluno);
+        }
+
         public DbSet<Aluno> Alunos { get; set; }
         public DbSet<Instituicao> Instituicoes { get; set; }
         public DbSet<Professor> Professor { get; set; }

@@ -2,7 +2,7 @@
 
 namespace SistemaMoedas.Model
 {
-    public class ListagemExtratoModel
+    public class ListagemExtratoModel 
     {
         public List<Transferencia> Transferencias { get; set; }
         public Constantes.Constantes.TiposUsuarios TiposUsuarios { get; set; }

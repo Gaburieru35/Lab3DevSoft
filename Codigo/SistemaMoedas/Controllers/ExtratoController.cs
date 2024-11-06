@@ -24,15 +24,20 @@ namespace SistemaMoedas.Controllers
                 case Constantes.Constantes.TiposUsuarios.Aluno:
 
                     objModel.Transferencias = TransferenciaPorAluno(codigo);
+
                     break;
                 case Constantes.Constantes.TiposUsuarios.Professor:
                     objModel.Transferencias = TransferenciaPorProfessor(codigo);
+                    
                     break;
                 case Constantes.Constantes.TiposUsuarios.Parceiro:
                     break;
                 default:
                     break;
             }
+
+            objModel.IdUsuario = codigo;
+            objModel.TiposUsuarios = tipo;
 
             return View(objModel);
         }

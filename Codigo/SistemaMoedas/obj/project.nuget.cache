@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CecB8djv0xrPXBw65kHVN4kOSTIs4a1Sf776QgLxolXDbG00hHyMddZ/7KIsl6IYkf1/IIkWVODFH/HYP2GzLg==",
+  "dgSpecHash": "OzEdKpjyU6yLMQHMy7FYEy0gz1+JVRdrSisc2JJSSDNW8CVN7U6HyofoM2pq6RAf0HQq2St5tb+X/9LDPb3qvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\Downloads\\SistemaMoedas\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj",
+  "projectFilePath": "D:\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

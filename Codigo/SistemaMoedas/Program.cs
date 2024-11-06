@@ -5,8 +5,12 @@ using SistemaMoedas.Services.Interfaces;
 using SistemaMoedas.Services;
 using SistemaMoedas.Repository;
 using SistemaMoedas.IRepository;
+using SistemaMoedas.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<UsuarioSessionController>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();

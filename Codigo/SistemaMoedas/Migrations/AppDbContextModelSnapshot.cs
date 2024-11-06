@@ -222,28 +222,46 @@ namespace SistemaMoedas.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CodigoTransferencia"));
 
                     b.Property<DateTime>("DataHoraTransferencia")
-                        .HasColumnType("datetime2")
-                        .HasColumnOrder(3);
+                        .HasColumnType("datetime2");
 
-                    b.Property<int>("DestinoTransferencia")
-                        .HasColumnType("int")
-                        .HasColumnOrder(2);
+                    b.Property<int>("DestinoTransferenciaCodigoAluno")
+                        .HasColumnType("int");
 
-                    b.Property<int>("OrigemTransferencia")
-                        .HasColumnType("int")
-                        .HasColumnOrder(1);
+                    b.Property<int>("OrigemTransferenciaCodigoProfessor")
+                        .HasColumnType("int");
 
                     b.Property<int>("TipoTransferencia")
-                        .HasColumnType("int")
-                        .HasColumnOrder(5);
+                        .HasColumnType("int");
 
                     b.Property<int>("ValorTransferencia")
-                        .HasColumnType("int")
-                        .HasColumnOrder(4);
+                        .HasColumnType("int");
 
                     b.HasKey("CodigoTransferencia");
 
+                    b.HasIndex("DestinoTransferenciaCodigoAluno");
+
+                    b.HasIndex("OrigemTransferenciaCodigoProfessor");
+
                     b.ToTable("Transferencias");
+                });
+
+            modelBuilder.Entity("SistemaMoedas.Classes.Transferencia", b =>
+                {
+                    b.HasOne("SistemaMoedas.Classes.Aluno", "DestinoTransferencia")
+                        .WithMany()
+                        .HasForeignKey("DestinoTransferenciaCodigoAluno")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SistemaMoedas.Classes.Professor", "OrigemTransferencia")
+                        .WithMany()
+                        .HasForeignKey("OrigemTransferenciaCodigoProfessor")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DestinoTransferencia");
+
+                    b.Navigation("OrigemTransferencia");
                 });
 #pragma warning restore 612, 618
         }

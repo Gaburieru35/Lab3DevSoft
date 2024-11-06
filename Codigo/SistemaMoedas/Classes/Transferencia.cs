@@ -8,33 +8,34 @@ namespace SistemaMoedas.Classes
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column(Order = 0)]
-        [Required(ErrorMessage = "Código do aluno não informado")]
-        [Display(Name = "Código aluno")]
         public int CodigoTransferencia { get; set; }
 
-        [Column(Order = 1)]
-        [Required(ErrorMessage = "Código do aluno não informado")]
-        [Display(Name = "Código aluno")]
-        public int OrigemTransferencia { get; set; }
+        // Chave estrangeira para OrigemTransferencia (Professor)
+        [Required(ErrorMessage = "Código do professor de origem não informado")]
+        [Display(Name = "Código do professor de origem")]
+        [ForeignKey("OrigemTransferencia")]
+        public int OrigemTransferenciaCodigoProfessor { get; set; }
+        
+        public Professor OrigemTransferencia { get; set; } // Propriedade de navegação
 
-        [Column(Order = 2)]
-        [Required(ErrorMessage = "Código do aluno não informado")]
-        [Display(Name = "Código aluno")]
-        public int DestinoTransferencia { get; set; }
+        // Chave estrangeira para DestinoTransferencia (Aluno)
+        [Required(ErrorMessage = "Código do aluno de destino não informado")]
+        [Display(Name = "Código do aluno de destino")]
+        [ForeignKey("DestinoTransferencia")]
+        public int DestinoTransferenciaCodigoAluno { get; set; }
+        
+        public Aluno DestinoTransferencia { get; set; } // Propriedade de navegação
 
-        [Column(Order = 3)]
-        [Required(ErrorMessage = "Código do aluno não informado")]
-        [Display(Name = "Código aluno")]
+        [Required(ErrorMessage = "Data e hora da transferência não informadas")]
+        [Display(Name = "Data e hora da transferência")]
         public DateTime DataHoraTransferencia { get; set; }
 
-        [Column(Order = 4)]
-        [Required(ErrorMessage = "Código do aluno não informado")]
-        [Display(Name = "Código aluno")]
+        [Required(ErrorMessage = "Valor da transferência não informado")]
+        [Display(Name = "Valor da transferência")]
         public int ValorTransferencia { get; set; }
 
-        [Column(Order = 5)]
-        [Required(ErrorMessage = "Código do aluno não informado")]
-        [Display(Name = "Código aluno")]
+        [Required(ErrorMessage = "Tipo da transferência não informado")]
+        [Display(Name = "Tipo da transferência")]
         public int TipoTransferencia { get; set; }
     }
 }
