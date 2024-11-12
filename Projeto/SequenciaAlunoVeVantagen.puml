@@ -1,0 +1,14 @@
+@startuml
+actor Aluno
+participant "Apresentação" as View
+participant "Controller" as Controller
+participant "BD" as Banco
+
+Aluno -> View: Acessar aba de vantagens
+View -> Controller: Solicitar carregamento da listagem
+Controller -> Banco: Solicitar dados
+Banco -> Controller: Retornar dados
+Controller -> View: Exibe dados
+View -> Aluno: Visualiza vantagens
+
+@enduml
