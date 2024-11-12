@@ -1,0 +1,19 @@
+@startuml
+actor EmpresaParceira
+participant "Apresentação" as View
+participant "Controller" as Controller
+participant "BD" as Banco
+
+EmpresaParceira -> View: Acessar aba de vantagens
+View -> Controller: Solicitar carregamento da listagem
+Controller -> Banco: Solicitar dados
+Banco -> Controller: Retornar dados
+Controller -> View: Exibe dados
+EmpresaParceira -> View: Solicita cadastro de vantagem
+View -> Controller: Recupera dados da tela
+Controller -> Banco: Salva os dados
+Banco --> Controller: Confirmação de Salvamento
+Controller -> View: Lista o dado salvo
+View -> EmpresaParceira: Visualiza os dados
+
+@enduml
