@@ -12,8 +12,8 @@ using SistemaMoedas.Data;
 namespace SistemaMoedas.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241106144024_att")]
-    partial class att
+    [Migration("20241112134032_a")]
+    partial class a
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -246,6 +246,34 @@ namespace SistemaMoedas.Migrations
                     b.HasIndex("OrigemTransferenciaCodigoProfessor");
 
                     b.ToTable("Transferencias");
+                });
+
+            modelBuilder.Entity("SistemaMoedas.Classes.Vantagem", b =>
+                {
+                    b.Property<int>("CodigoVantagem")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnOrder(0);
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CodigoVantagem"));
+
+                    b.Property<string>("DescricaoVantagem")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnOrder(1);
+
+                    b.Property<string>("TituloVantagem")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnOrder(3);
+
+                    b.Property<int>("ValorVantagem")
+                        .HasColumnType("int")
+                        .HasColumnOrder(2);
+
+                    b.HasKey("CodigoVantagem");
+
+                    b.ToTable("Vantagens");
                 });
 
             modelBuilder.Entity("SistemaMoedas.Classes.Transferencia", b =>

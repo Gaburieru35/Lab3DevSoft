@@ -11,5 +11,6 @@ namespace SistemaMoedas.IRepository
         IRepository<Parceiro> ParceiroRepository { get; }
         IRepository<Professor> ProfessorRepository { get; }
         IRepository<Transferencia> TransferenciaRepository { get; }
+        IRepository<Vantagem> VantagemRepository { get; }
     }
 }

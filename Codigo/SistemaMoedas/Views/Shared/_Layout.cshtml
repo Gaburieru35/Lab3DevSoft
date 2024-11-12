@@ -54,12 +54,18 @@
                             Home
                         </a>
                     </li>
-                    <li>
-                        <a href="/Extrato" class="nav-link link-dark">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href=""></use></svg>
-                            Extrato
-                        </a>
-                    </li>
+                    @{
+                        if (usuarioLogado?.TipoUsuario != SistemaMoedas.Constantes.Constantes.TiposUsuarios.Parceiro)
+                        {
+                            <li>
+                                <a href="/Extrato" class="nav-link link-dark">
+                                    <svg class="bi me-2" width="16" height="16"><use xlink:href=""></use></svg>
+                                    Extrato
+                                </a>
+                            </li>
+                        }
+                    }
+                    
                     @{
                         if(usuarioLogado?.TipoUsuario == SistemaMoedas.Constantes.Constantes.TiposUsuarios.Professor)
                         {
@@ -73,7 +79,7 @@
                     }
                     
                     <li>
-                        <a href="#" class="nav-link link-dark">
+                        <a href="/Vantagem" class="nav-link link-dark">
                             <svg class="bi me-2" width="16" height="16"><use xlink:href=""></use></svg>
                             Vantagens
                         </a>

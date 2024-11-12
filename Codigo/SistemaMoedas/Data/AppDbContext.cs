@@ -29,5 +29,7 @@ namespace SistemaMoedas.Data
         public DbSet<Parceiro> Parceiro { get; set; }
         public DbSet<Curso> Curso { get; set; }
         public DbSet<Transferencia> Transferencias { get; set; }
+
+        public DbSet<Vantagem> Vantagens { get; set; }
     }
 }

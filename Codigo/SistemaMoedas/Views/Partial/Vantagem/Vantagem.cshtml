@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Vantagens";
+    Layout = "_Layout";
+}
+@inject SistemaMoedas.Controllers.UsuarioSessionController usuarioSessionController
+@model SistemaMoedas.Model.ListarVantagemModel;
+
+@{
+    var usuarioLogado = usuarioSessionController.RetornarUsuarioSessao();
+    if(usuarioLogado.TipoUsuario == SistemaMoedas.Constantes.Constantes.TiposUsuarios.Parceiro)
+    {
+        <button class="modalVantagem" data-bs-toggle="modal" data-bs-target="#modalVantagem">+ Incluir vantagem</button>
+    }
+}
+
+<table class="table table-bordered border-primary" style="margin-top: 20px;">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Titulo</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Valor</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vant in Model.ListaVantagens)
+        {
+            <tr>
+                <th scope="row">@vant.CodigoVantagem</th>
+                <td>@vant.TituloVantagem</td>
+                <td>@vant.DescricaoVantagem</td>
+                <td>@vant.ValorVantagem</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!--Modal-->
+<div class="modal fade" id="modalVantagem" tabindex="-1" aria-labelledby="modalVantagem" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="">Cadastrar vantagem</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h6 class="">Digite o nome da vantagem</h6>
+                <input id="nomeVantagem" type="text" class="form-control"></input>
+            </div>
+
+            <div class="modal-body">
+                <h6 class="">Digite a descrição da vantagem</h6>
+                <input id="descricaoVantagem" type="text" class="form-control"></input>
+            </div>
+
+            <div class="modal-body">
+                <h6 class="">Digite o valor da vantagem</h6>
+                <input id="valorVantagem" type="number" class="form-control"></input>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="criarVantagem">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/js/vantagem.js"></script>
+}
