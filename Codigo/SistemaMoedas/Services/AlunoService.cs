@@ -52,5 +52,12 @@ namespace SistemaMoedas.Services
             Contexto.AlunoRepository.Alterar(aluno, a => a.CodigoAluno);
             Salvar();
         }
+
+        public void EnviarMoedas(Aluno aluno, int quantidadeEnviada)
+        {
+            aluno.QuantidadeMoedasAluno -= quantidadeEnviada;
+            Contexto.AlunoRepository.Alterar(aluno, a => a.CodigoAluno);
+            Salvar();
+        }
     }
 }

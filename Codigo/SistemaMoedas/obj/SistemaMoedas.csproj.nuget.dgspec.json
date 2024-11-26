@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj": {}
+    "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj": {
+    "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj",
+        "projectUniqueName": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj",
         "projectName": "SistemaMoedas",
-        "projectPath": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj",
+        "projectPath": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj",
         "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\obj\\",
+        "outputPath": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",

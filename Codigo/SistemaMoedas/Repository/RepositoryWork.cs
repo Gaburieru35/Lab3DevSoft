@@ -15,6 +15,7 @@ namespace SistemaMoedas.Repository
         private IRepository<Professor> _professorRepository;
         private IRepository<Transferencia> _transferenciaRepository;
         private IRepository<Vantagem> _vantagemRepository;
+        private IRepository<VantagemAluno> _vantagemAlunoRepository;
         public RepositoryWork(DbContextOptions<AppDbContext> context)
         {
             _context = new AppDbContext(context);
@@ -57,6 +58,11 @@ namespace SistemaMoedas.Repository
         public IRepository<Vantagem> VantagemRepository
         {
             get { return _vantagemRepository ?? (_vantagemRepository = new Repository<Vantagem>(_context)); }
+        }
+
+        public IRepository<VantagemAluno> VantagemAlunoRepository
+        {
+            get { return _vantagemAlunoRepository ?? (_vantagemAlunoRepository = new Repository<VantagemAluno>(_context)); }
         }
     }
 }

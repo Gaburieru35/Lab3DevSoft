@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Inventario";
+    Layout = "_Layout";
+}
+@inject SistemaMoedas.Controllers.UsuarioSessionController usuarioSessionController
+@model SistemaMoedas.Model.ListarVantagemModel;
+
+@{
+    var usuarioLogado = usuarioSessionController.RetornarUsuarioSessao();
+    if (usuarioLogado.TipoUsuario == SistemaMoedas.Constantes.Constantes.TiposUsuarios.Parceiro)
+    {
+        <button class="modalVantagem" data-bs-toggle="modal" data-bs-target="#modalVantagem">+ Incluir vantagem</button>
+    }
+}
+
+<table class="table table-bordered border-primary" style="margin-top: 20px;">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Titulo</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Valor</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vant in Model.ListaVantagens)
+        {
+            <tr>
+                <th scope="row">@vant.CodigoVantagem</th>
+                <td>@vant.TituloVantagem</td>
+                <td>@vant.DescricaoVantagem</td>
+                <td>@vant.ValorVantagem</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts {
+    <script src="~/js/vantagem.js"></script>
+}

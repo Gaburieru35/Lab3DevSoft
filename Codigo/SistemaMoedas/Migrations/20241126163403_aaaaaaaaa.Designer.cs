@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SistemaMoedas.Data;
 
@@ -11,9 +12,11 @@ using SistemaMoedas.Data;
 namespace SistemaMoedas.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241126163403_aaaaaaaaa")]
+    partial class aaaaaaaaa
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -258,11 +261,6 @@ namespace SistemaMoedas.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
                         .HasColumnOrder(1);
-
-                    b.Property<byte[]>("FotoProduto")
-                        .IsRequired()
-                        .HasColumnType("varbinary(max)")
-                        .HasColumnOrder(4);
 
                     b.Property<string>("TituloVantagem")
                         .IsRequired()

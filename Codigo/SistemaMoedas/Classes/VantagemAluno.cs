@@ -3,33 +3,23 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SistemaMoedas.Classes
 {
-    public class Vantagem
+    public class VantagemAluno
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column(Order = 0)]
         [Required(ErrorMessage = "Código do aluno não informado")]
         [Display(Name = "Código")]
-        public int CodigoVantagem { get; set; }
+        public int Codigo { get; set; }
 
         [Column(Order = 1)]
         [Required(ErrorMessage = "Código do aluno não informado")]
         [Display(Name = "Descrição")]
-        public string DescricaoVantagem { get; set; }
+        public int CodigoAluno { get; set; }
 
         [Column(Order = 2)]
         [Required(ErrorMessage = "Código do aluno não informado")]
         [Display(Name = "Valor")]
-        public int ValorVantagem { get; set; }
-
-        [Column(Order = 3)]
-        [Required(ErrorMessage = "Código do aluno não informado")]
-        [Display(Name = "Título")]
-        public string TituloVantagem { get; set; }
-
-        [Column(Order = 4, TypeName = "varbinary(max)")]
-        [Required(ErrorMessage = "Informe uma foto do produto")]
-        [Display(Name = "Foto")]
-        public byte[] FotoProduto { get; set; }
+        public int CodigoVantagem { get; set; }
     }
 }

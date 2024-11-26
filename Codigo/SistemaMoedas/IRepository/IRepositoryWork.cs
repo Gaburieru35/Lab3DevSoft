@@ -12,5 +12,7 @@ namespace SistemaMoedas.IRepository
         IRepository<Professor> ProfessorRepository { get; }
         IRepository<Transferencia> TransferenciaRepository { get; }
         IRepository<Vantagem> VantagemRepository { get; }
+
+        IRepository<VantagemAluno> VantagemAlunoRepository { get; }
     }
 }

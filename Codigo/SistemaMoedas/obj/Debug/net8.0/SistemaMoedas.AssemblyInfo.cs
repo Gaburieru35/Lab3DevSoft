@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaMoedas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abb7008dd7257547e9c7dec82595f50065facdca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+702c839315593ad1be6fa0af034f4d4e0348b931")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaMoedas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaMoedas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

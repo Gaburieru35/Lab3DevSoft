@@ -20,5 +20,11 @@ namespace SistemaMoedas.Services
             IList<Vantagem> vantagens = Contexto.VantagemRepository.ListarTodos().ToList();
             return vantagens;
         }
+
+        public Vantagem BuscarPorId(int id)
+        {
+            Vantagem vantagem = Contexto.VantagemRepository.ListarPorCodigo(id);
+            return vantagem;
+        }
     }
 }

@@ -31,5 +31,7 @@ namespace SistemaMoedas.Data
         public DbSet<Transferencia> Transferencias { get; set; }
 
         public DbSet<Vantagem> Vantagens { get; set; }
+
+        public DbSet<VantagemAluno> VantagemAlunos { get; set; }
     }
 }

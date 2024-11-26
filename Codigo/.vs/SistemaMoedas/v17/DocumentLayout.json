@@ -1,42 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\",
+  "WorkspaceRootPath": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\documents\\riko\\puc\\materias\\lab3devsoft\\codigo\\sistemamoedas\\views\\partial\\vantagem\\vantagem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\partial\\vantagem\\vantagem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\documents\\riko\\puc\\materias\\lab3devsoft\\codigo\\sistemamoedas\\services\\vantagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\vantagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\documents\\riko\\puc\\materias\\lab3devsoft\\codigo\\sistemamoedas\\controllers\\vantagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\downloads\\lab3devsoft\\codigo\\sistemamoedas\\controllers\\vantagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\controllers\\vantagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\documents\\riko\\puc\\materias\\lab3devsoft\\codigo\\sistemamoedas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\downloads\\lab3devsoft\\codigo\\sistemamoedas\\views\\partial\\vantagem\\vantagem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\partial\\vantagem\\vantagem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\documents\\riko\\puc\\materias\\lab3devsoft\\codigo\\sistemamoedas\\views\\aluno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\aluno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\downloads\\lab3devsoft\\codigo\\sistemamoedas\\wwwroot\\js\\vantagem.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\wwwroot\\js\\vantagem.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\documents\\riko\\puc\\materias\\lab3devsoft\\codigo\\sistemamoedas\\controllers\\cadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\controllers\\cadastrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\documents\\riko\\puc\\materias\\lab3devsoft\\codigo\\sistemamoedas\\views\\extrato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\downloads\\lab3devsoft\\codigo\\sistemamoedas\\views\\extrato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\extrato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\documents\\riko\\puc\\materias\\lab3devsoft\\codigo\\sistemamoedas\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\downloads\\lab3devsoft\\codigo\\sistemamoedas\\classes\\vantagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\classes\\vantagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\documents\\riko\\puc\\materias\\lab3devsoft\\codigo\\sistemamoedas\\wwwroot\\js\\vantagem.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\wwwroot\\js\\vantagem.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\downloads\\lab3devsoft\\codigo\\sistemamoedas\\views\\partial\\vantagem\\inventario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\partial\\vantagem\\inventario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\downloads\\lab3devsoft\\codigo\\sistemamoedas\\services\\vantagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\vantagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\downloads\\lab3devsoft\\codigo\\sistemamoedas\\services\\vantagemalunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\services\\vantagemalunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\downloads\\lab3devsoft\\codigo\\sistemamoedas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\downloads\\lab3devsoft\\codigo\\sistemamoedas\\classes\\vantagemaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\classes\\vantagemaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|c:\\users\\matheus\\downloads\\lab3devsoft\\codigo\\sistemamoedas\\wwwroot\\js\\aluno.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C75DCFAE-2580-44C5-856D-41A23C4142AF}|SistemaMoedas\\SistemaMoedas.csproj|solutionrelative:sistemamoedas\\wwwroot\\js\\aluno.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 277,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,77 +71,129 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CadastroController.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Controllers\\CadastroController.cs",
-              "RelativeDocumentMoniker": "SistemaMoedas\\Controllers\\CadastroController.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Controllers\\CadastroController.cs",
-              "RelativeToolTip": "SistemaMoedas\\Controllers\\CadastroController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAWwCQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:58:15.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SistemaMoedas\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SistemaMoedas\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAEUAAAB0AAAA",
+              "Title": "Inventario.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Partial\\Vantagem\\Inventario.cshtml",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Views\\Partial\\Vantagem\\Inventario.cshtml",
+              "ToolTip": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Partial\\Vantagem\\Inventario.cshtml",
+              "RelativeToolTip": "SistemaMoedas\\Views\\Partial\\Vantagem\\Inventario.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T14:25:51.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProfessorController.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Controllers\\ProfessorController.cs",
-              "RelativeDocumentMoniker": "SistemaMoedas\\Controllers\\ProfessorController.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Controllers\\ProfessorController.cs",
-              "RelativeToolTip": "SistemaMoedas\\Controllers\\ProfessorController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAwwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T14:04:56.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Aluno\\Index.cshtml",
-              "RelativeDocumentMoniker": "SistemaMoedas\\Views\\Aluno\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Aluno\\Index.cshtml",
-              "RelativeToolTip": "SistemaMoedas\\Views\\Aluno\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T14:00:49.471Z",
+              "WhenOpened": "2024-11-26T19:03:29.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaMoedas\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFgAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T18:58:50.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VantagemService.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Services\\VantagemService.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\VantagemService.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Services\\VantagemService.cs",
+              "RelativeToolTip": "SistemaMoedas\\Services\\VantagemService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:35:04.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VantagemAlunoService.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Services\\VantagemAlunoService.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\VantagemAlunoService.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Services\\VantagemAlunoService.cs",
+              "RelativeToolTip": "SistemaMoedas\\Services\\VantagemAlunoService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:20:26.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VantagemAluno.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Classes\\VantagemAluno.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Classes\\VantagemAluno.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Classes\\VantagemAluno.cs",
+              "RelativeToolTip": "SistemaMoedas\\Classes\\VantagemAluno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:13:50.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vantagem.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Classes\\Vantagem.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Classes\\Vantagem.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Classes\\Vantagem.cs",
+              "RelativeToolTip": "SistemaMoedas\\Classes\\Vantagem.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:13:31.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VantagemController.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Controllers\\VantagemController.cs",
+              "RelativeDocumentMoniker": "SistemaMoedas\\Controllers\\VantagemController.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Controllers\\VantagemController.cs",
+              "RelativeToolTip": "SistemaMoedas\\Controllers\\VantagemController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAjwD4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:58:33.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "aluno.js",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\wwwroot\\js\\aluno.js",
+              "RelativeDocumentMoniker": "SistemaMoedas\\wwwroot\\js\\aluno.js",
+              "ToolTip": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\wwwroot\\js\\aluno.js",
+              "RelativeToolTip": "SistemaMoedas\\wwwroot\\js\\aluno.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-26T15:55:53.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "vantagem.js",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\wwwroot\\js\\vantagem.js",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\wwwroot\\js\\vantagem.js",
               "RelativeDocumentMoniker": "SistemaMoedas\\wwwroot\\js\\vantagem.js",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\wwwroot\\js\\vantagem.js",
+              "ToolTip": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\wwwroot\\js\\vantagem.js",
               "RelativeToolTip": "SistemaMoedas\\wwwroot\\js\\vantagem.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-12T13:53:52.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Extrato\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Extrato\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaMoedas\\Views\\Extrato\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Extrato\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Extrato\\Index.cshtml",
               "RelativeToolTip": "SistemaMoedas\\Views\\Extrato\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAgAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-12T13:17:33.785Z",
               "EditorCaption": ""
@@ -141,40 +201,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VantagemService.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Services\\VantagemService.cs",
-              "RelativeDocumentMoniker": "SistemaMoedas\\Services\\VantagemService.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Services\\VantagemService.cs",
-              "RelativeToolTip": "SistemaMoedas\\Services\\VantagemService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:25:51.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Vantagem.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Partial\\Vantagem\\Vantagem.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Partial\\Vantagem\\Vantagem.cshtml",
               "RelativeDocumentMoniker": "SistemaMoedas\\Views\\Partial\\Vantagem\\Vantagem.cshtml",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Partial\\Vantagem\\Vantagem.cshtml",
+              "ToolTip": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Views\\Partial\\Vantagem\\Vantagem.cshtml",
               "RelativeToolTip": "SistemaMoedas\\Views\\Partial\\Vantagem\\Vantagem.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA5AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-12T13:07:41.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VantagemController.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Controllers\\VantagemController.cs",
-              "RelativeDocumentMoniker": "SistemaMoedas\\Controllers\\VantagemController.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\Controllers\\VantagemController.cs",
-              "RelativeToolTip": "SistemaMoedas\\Controllers\\VantagemController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:06:48.598Z",
               "EditorCaption": ""
             }
           ]

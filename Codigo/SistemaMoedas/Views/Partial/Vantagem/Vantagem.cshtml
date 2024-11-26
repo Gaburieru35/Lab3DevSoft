@@ -17,9 +17,11 @@
     <thead>
         <tr>
             <th scope="col">#</th>
+            <th scope="col">Foto</th>
             <th scope="col">Titulo</th>
             <th scope="col">Descrição</th>
             <th scope="col">Valor</th>
+            <th scope="col">Ações</th>
         </tr>
     </thead>
     <tbody>
@@ -27,9 +29,13 @@
         {
             <tr>
                 <th scope="row">@vant.CodigoVantagem</th>
+                <td><img src="@Url.Action("ObterImagem", "Vantagem", new { id = vant.CodigoVantagem })" alt="Imagem do Produto" /></td>
                 <td>@vant.TituloVantagem</td>
                 <td>@vant.DescricaoVantagem</td>
                 <td>@vant.ValorVantagem</td>
+                <td>
+                    <button vantagem-codigo="@(vant.CodigoVantagem)" data-codigo="@(usuarioLogado.IdUsuario)" class="comprarVantagem" data-bs-toggle="modalComprar" data-bs-target="#modalComprar">Comprar</button>
+                </td>
             </tr>
         }
     </tbody>
@@ -42,6 +48,10 @@
             <div class="modal-header">
                 <h1 class="modal-title fs-5" id="">Cadastrar vantagem</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h6 class="">Selecione a imagem</h6>
+                <input id="imagemVantagem" type="file" class="form-control"></input>
             </div>
             <div class="modal-body">
                 <h6 class="">Digite o nome da vantagem</h6>
@@ -61,6 +71,24 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary" id="criarVantagem">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Modal confirmação-->
+<div class="modal fade" id="modalComprar" tabindex="-1" aria-labelledby="modalComprar" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="">Comprar vantagem</h1>
+                <p>Deseja comprar a vantagem?</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary" id="confirmarCompraVantagem">Comprar</button>
             </div>
         </div>
     </div>

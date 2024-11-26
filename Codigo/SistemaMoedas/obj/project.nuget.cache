@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zomsebX2ukmiim1HttcPXRE5gHdQfZW5kqRFcWJG42+T76jgpdAFl5TOEM8UJl/vELqKcDPjgB9n5LjhyPmBrg==",
+  "dgSpecHash": "tCQtviP32TguUqGPN+6zLL/H6e+VuolcTt+V1YCBs8s/PqP3z6FNxBw6/LBvZg1KaO8jhpVSc7l3AJHpKZfd9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matheus\\Documents\\Riko\\PUC\\Materias\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj",
+  "projectFilePath": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matheus\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
