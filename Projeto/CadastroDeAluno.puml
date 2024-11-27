@@ -1,0 +1,29 @@
+@startuml
+actor Aluno
+participant "AlunoController" as AC
+participant "AlunoService" as AS
+participant "InstituicaoService" as IS
+
+Aluno -> AC: cadastrarAluno(dadosAluno)
+activate AC
+AC -> AS: validarCamposObrigatorios(dadosAluno)
+activate AS
+AS -> IS: validarInstituicao(dadosAluno.instituicao)
+activate IS
+IS -> AS: instituicaoValida
+deactivate IS
+AS -> AS: verificarDuplicidadeCPF(dadosAluno.cpf)
+AS -> AC: cpfUnico
+deactivate AS
+
+alt cpfUnico e instituicaoValida
+    AC -> AS: salvarAluno(dadosAluno)
+    activate AS
+    AS -> AC: alunoSalvo
+    deactivate AS
+    AC -> Aluno: cadastroSucesso
+else cpfDuplicado ou instituicaoInvalida
+    AC -> Aluno: cadastroFalha
+end
+deactivate AC
+@enduml

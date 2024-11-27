@@ -1,0 +1,15 @@
+@startuml
+actor Professor
+participant "Sistema" as Sistema
+participant "Banco de Dados" as BD
+participant "Serviço de Email" as Email
+
+Professor -> Sistema: Selecionar aluno e quantidade de moedas
+Sistema -> BD: Verificar saldo de moedas
+BD -> Sistema: Saldo suficiente
+Sistema -> BD: Atualizar saldo do professor
+Sistema -> BD: Registrar transação
+Sistema -> Email: Enviar notificação ao aluno
+Email -> Aluno: Notificação de recebimento de moedas
+Sistema -> Professor: Transação confirmada
+@enduml

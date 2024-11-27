@@ -1,0 +1,16 @@
+@startuml
+actor Aluno
+participant "Sistema" as Sistema
+participant "Banco de Dados" as BD
+participant "Serviço de Email" as Email
+
+Aluno -> Sistema: Selecionar vantagem para resgate
+Sistema -> BD: Verificar saldo de moedas
+BD -> Sistema: Saldo suficiente
+Sistema -> BD: Atualizar saldo do aluno
+Sistema -> Email: Enviar cupom ao aluno
+Email -> Aluno: Cupom enviado
+Sistema -> Email: Notificar empresa parceira
+Email -> Empresa: Notificação de resgate
+Sistema -> Aluno: Resgate confirmado
+@enduml

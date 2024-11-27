@@ -1,0 +1,10 @@
+@startuml
+actor Aluno
+participant "Sistema" as Sistema
+participant "Banco de Dados" as BD
+
+Aluno -> Sistema: Solicitar consulta de extrato
+Sistema -> BD: Recuperar saldo e transações
+BD -> Sistema: Dados de saldo e transações
+Sistema -> Aluno: Retornar extrato
+@enduml
