@@ -94,9 +94,16 @@ namespace SistemaMoedas.Repository
                 throw new ArgumentNullException("Entidade não instanciada!");
             }
 
-            if (tipo is IValidacao)
+            if (tipo is IValidacao validacao)
             {
-                ((IValidacao)tipo).Validacao();
+                validacao.Validacao();
+            }
+
+            // Antes de adicionar, verifique se há rastreamento conflitante
+            var entry = _context.Entry(tipo);
+            if (entry.State == EntityState.Detached)
+            {
+                _context.Set<T>().Attach(tipo); // Anexa ao contexto, se necessário
             }
 
             _context.Set<T>().Add(tipo);

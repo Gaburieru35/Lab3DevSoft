@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaMoedas.Classes;
+using SistemaMoedas.Interfaces;
 using SistemaMoedas.IRepository;
 using SistemaMoedas.Model;
 using SistemaMoedas.Services;

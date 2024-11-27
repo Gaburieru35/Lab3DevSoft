@@ -12,6 +12,7 @@ namespace SistemaMoedas.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
             modelBuilder.Entity<Transferencia>()
                 .HasOne(t => t.OrigemTransferencia)
                 .WithMany()

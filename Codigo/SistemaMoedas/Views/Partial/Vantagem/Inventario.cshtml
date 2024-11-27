@@ -5,14 +5,6 @@
 @inject SistemaMoedas.Controllers.UsuarioSessionController usuarioSessionController
 @model SistemaMoedas.Model.ListarVantagemModel;
 
-@{
-    var usuarioLogado = usuarioSessionController.RetornarUsuarioSessao();
-    if (usuarioLogado.TipoUsuario == SistemaMoedas.Constantes.Constantes.TiposUsuarios.Parceiro)
-    {
-        <button class="modalVantagem" data-bs-toggle="modal" data-bs-target="#modalVantagem">+ Incluir vantagem</button>
-    }
-}
-
 <table class="table table-bordered border-primary" style="margin-top: 20px;">
     <thead>
         <tr>

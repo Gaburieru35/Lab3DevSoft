@@ -9,7 +9,7 @@
     var usuarioLogado = usuarioSessionController.RetornarUsuarioSessao();
     if(usuarioLogado.TipoUsuario == SistemaMoedas.Constantes.Constantes.TiposUsuarios.Parceiro)
     {
-        <button class="modalVantagem" data-bs-toggle="modal" data-bs-target="#modalVantagem">+ Incluir vantagem</button>
+        <button style="margin-top:20px;" class="modalVantagem" data-bs-toggle="modal" data-bs-target="#modalVantagem">+ Incluir vantagem</button>
     }
 }
 
@@ -21,7 +21,12 @@
             <th scope="col">Titulo</th>
             <th scope="col">Descrição</th>
             <th scope="col">Valor</th>
-            <th scope="col">Ações</th>
+            @{
+                if (usuarioLogado.TipoUsuario == SistemaMoedas.Constantes.Constantes.TiposUsuarios.Aluno)
+                {
+                    <th scope="col">Ações</th>
+                }
+            }
         </tr>
     </thead>
     <tbody>
@@ -29,13 +34,21 @@
         {
             <tr>
                 <th scope="row">@vant.CodigoVantagem</th>
-                <td><img src="@Url.Action("ObterImagem", "Vantagem", new { id = vant.CodigoVantagem })" alt="Imagem do Produto" /></td>
+                <td><img style="max-width: 25%;" src="@Url.Action("ObterImagem", "Vantagem", new { id = vant.CodigoVantagem })" alt="Imagem do Produto" /></td>
                 <td>@vant.TituloVantagem</td>
                 <td>@vant.DescricaoVantagem</td>
                 <td>@vant.ValorVantagem</td>
-                <td>
-                    <button vantagem-codigo="@(vant.CodigoVantagem)" data-codigo="@(usuarioLogado.IdUsuario)" class="comprarVantagem" data-bs-toggle="modalComprar" data-bs-target="#modalComprar">Comprar</button>
-                </td>
+                
+                    @{
+                        if(usuarioLogado.TipoUsuario == SistemaMoedas.Constantes.Constantes.TiposUsuarios.Aluno)
+                        {
+                            <td>
+                                <button vantagem-codigo="@(vant.CodigoVantagem)" data-codigo="@(usuarioLogado.IdUsuario)" class="comprarVantagem" data-bs-toggle="modalComprar" data-bs-target="#modalComprar">Comprar</button>
+                            </td>
+                        }
+                    }
+                    
+                
             </tr>
         }
     </tbody>

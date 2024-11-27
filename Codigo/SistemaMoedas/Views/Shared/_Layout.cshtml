@@ -84,14 +84,17 @@
                             Vantagens
                         </a>
                     </li>
-
-                    <li>
-                        <a href="/Vantagem/Inventario?aluno=@(usuarioLogado?.IdUsuario)" class="nav-link link-dark">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href=""></use></svg>
-                            Inventario
-                        </a>
-                    </li>
-
+                    @{
+                        if(usuarioLogado?.TipoUsuario == SistemaMoedas.Constantes.Constantes.TiposUsuarios.Aluno)
+                        {
+                            <li>
+                                <a href="/Vantagem/Inventario?aluno=@(usuarioLogado?.IdUsuario)" class="nav-link link-dark">
+                                    <svg class="bi me-2" width="16" height="16"><use xlink:href=""></use></svg>
+                                    Inventario
+                                </a>
+                            </li>
+                        }
+                    }
                     <li>
                         <a href="#" class="nav-link link-dark">
                             <svg class="bi me-2" width="16" height="16"><use xlink:href=""></use></svg>

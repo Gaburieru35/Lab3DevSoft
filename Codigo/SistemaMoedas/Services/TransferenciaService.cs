@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SistemaMoedas.Classes;
+using SistemaMoedas.Interfaces;
 using SistemaMoedas.IRepository;
 using SistemaMoedas.Services.Interfaces;
 
@@ -29,6 +30,7 @@ namespace SistemaMoedas.Services
                                                                                   .Include(t => t.OrigemTransferencia) // Inclui a propriedade de navegação OrigemTransferencia
                                                                                   .Include(t => t.DestinoTransferencia)
                                                                                   .ToList();
+
             return transferencias;
         }
 
