@@ -16,6 +16,8 @@ namespace SistemaMoedas.Controllers
         {
             AlunoService alunoService = new AlunoService(Contexto);
             ProfessorService professorService = new ProfessorService(Contexto);
+            InstituicaoService instituicaoService = new InstituicaoService(Contexto);
+            CursoService cursoService = new CursoService(Contexto);
 
             UsuarioLogadoModel objModel = new UsuarioLogadoModel();
 
@@ -29,6 +31,20 @@ namespace SistemaMoedas.Controllers
             usuario.TipoUsuario = (Constantes.Constantes.TiposUsuarios)tipo;
             usuario.EmailUsuario = HttpContext.Session.GetString("_email");
             usuario.NomeUsuario = HttpContext.Session.GetString("_nome");
+
+            switch ((int)usuario.TipoUsuario)
+            {
+                case 1:
+                    objModel.Instituicao = instituicaoService.ListarPorCodigo(objModel.Aluno.InstituicaoAluno);
+                    objModel.Curso = cursoService.ListarPorCodigo(objModel.Aluno.CursoAluno);
+
+                    break;
+
+                case 2:
+                    objModel.Instituicao = instituicaoService.ListarPorCodigo(objModel.Professor.InstituicaoProfessor);
+
+                    break;
+            }
 
             objModel.TiposUsuario = (Constantes.Constantes.TiposUsuarios)tipo;
 

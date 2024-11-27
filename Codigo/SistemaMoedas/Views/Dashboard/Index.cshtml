@@ -5,31 +5,69 @@
 
 @model SistemaMoedas.Model.UsuarioLogadoModel;
 
-<div class="row">
+<div class="row" style="margin-top: 2%">
 
     <div class="col-md-3">
-        <div class="card" style="width: 15rem; border-radius: 5px !important; min-height: 200px; text-align:center; border: 1px solid #6f42c1">
+        <div class="card" style="width: 100%; border-radius: 15px !important; min-height: 200px; max-height: 200px; text-align:center; border: 1px solid #6f42c1; background-color: #6f42c1; color: #fff;">
             <div class="card-body">
-                <h5 class="card-title" style="font-size: 32px !important;">Saldo</h5>
+                <div class="row">
+                    <h5 class="card-title" style="font-size: 32px !important;">Saldo</h5>
+                    <p class="card-text" style="font-size: 24px !important; margin-top: 20px;">
+                        @switch (Model.TiposUsuario)
+                        {
+                            case SistemaMoedas.Constantes.Constantes.TiposUsuarios.Aluno:
+                                @Model.Aluno.QuantidadeMoedasAluno
+                                ;
+                                break;
+
+                            case SistemaMoedas.Constantes.Constantes.TiposUsuarios.Professor:
+                                @Model.Professor.MoedasProfessor
+                                ;
+                                break;
+
+                            default:
+                                @Html.Raw("0")
+                                ;
+                                break;
+                        }
+                    </p>
+                    <p class="card-text" style="font-size: 24px !important; margin-top: 20px;">Moedas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-5">
+        <div class="card" style="width: 100%; border-radius: 15px !important; min-height: 200px; max-height: 200px; text-align:center; border: 1px solid #0080e6; background-color: #0080e6; color: #fff;">
+            <div class="card-body">
+                <h5 class="card-title" style="font-size: 32px !important;">Instituição</h5>
+                <p class="card-text" style="font-size: 24px !important; margin-top: 20px;">
+                    @(Model.Instituicao != null ? Model.Instituicao.NomeInstituicao : "-")
+                </p>
+                <p class="card-text" style="font-size: 24px !important; margin-top: 20px;"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" style="width: 100%; border-radius: 15px !important; min-height: 200px; max-height: 200px; text-align:center; border: 1px solid #00aa8e; background-color: #00aa8e; color: #fff;">
+            <div class="card-body">
+                <h5 class="card-title" style="font-size: 32px !important;">Curso</h5>
                 <p class="card-text" style="font-size: 24px !important; margin-top: 20px;">
                     @switch (Model.TiposUsuario)
                     {
                         case SistemaMoedas.Constantes.Constantes.TiposUsuarios.Aluno:
-                            @Model.Aluno.QuantidadeMoedasAluno;
-                            break;
-
-                        case SistemaMoedas.Constantes.Constantes.TiposUsuarios.Professor:
-                            @Model.Professor.MoedasProfessor
+                            @Model.Curso.NomeCurso
                             ;
                             break;
 
                         default:
-                               @Html.Raw("0");
+                            @Html.Raw("-")
+                            ;
                             break;
                     }
-
                 </p>
-                <p class="card-text" style="font-size: 24px !important; margin-top: 20px;">Moedas</>
+                <p class="card-text" style="font-size: 24px !important; margin-top: 20px;"></p>
             </div>
         </div>
     </div>

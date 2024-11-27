@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj": {}
+    "D:\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj": {
+    "D:\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj",
+        "projectUniqueName": "D:\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj",
         "projectName": "SistemaMoedas",
-        "projectPath": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj",
-        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matheus\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\obj\\",
+        "projectPath": "D:\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\SistemaMoedas.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\Lab3DevSoft\\Codigo\\SistemaMoedas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

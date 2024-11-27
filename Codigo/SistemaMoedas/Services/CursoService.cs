@@ -16,5 +16,11 @@ namespace SistemaMoedas.Services
 
             return cursos;
         }
+
+        public Curso ListarPorCodigo(int codigo)
+        {
+            Curso cur = Contexto.CursoRepository.ListarPorCodigo(codigo);
+            return cur;
+        }
     }
 }

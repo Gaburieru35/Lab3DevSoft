@@ -15,5 +15,11 @@ namespace SistemaMoedas.Services
             return listaInstituicao;
 
         }
+
+        public Instituicao ListarPorCodigo(int codigo)
+        {
+            Instituicao ints = Contexto.InstituicaoRepository.ListarPorCodigo(codigo);
+            return ints;
+        }
     }
 }
